@@ -1,0 +1,463 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.section-title {
+	text-align: center;
+	padding: 0 100px;
+}
+.header .single-top p {
+	font-size: 13px;
+}
+.header .single-widget {
+	margin-right: 3px;
+	padding-left: 30px;
+}
+.header .single-widget i {
+	top: 50%;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	margin-top: -12.5px;
+}
+.header .right-bar {
+	padding-top: 15px;
+}
+.header .nav li a {
+	font-size: 13px;
+	padding: 20px 15px;
+}
+.header .right-bar {
+	display: inline-block;
+}
+.header .search-form {
+	top: 60px;
+}
+.hero-slider,.hero-slider .single-slider {
+	position: relative;
+	height: 500px;
+}
+.hero-slider .single-slider .text h1 {
+	font-size: 35px;
+	line-height: 42px;
+}
+.hero-slider .single-slider .text {
+	float: none;
+	text-align: left;
+	margin: 100px 0 0;
+}
+.features .single-feature {
+	position: relative;
+	text-align: center;
+}
+.features .serial {
+	font-size: 42px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	left: auto;
+	top: auto;
+	line-height: initial;
+}
+.features .f-content {
+	padding-left: 0;
+}
+.features .f-content h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.features .f-content p{
+	line-height:22px;
+}
+.why-choose .video-main {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	left: 0;
+}
+.why-choose .faq-area {
+	padding: 50px 0;
+}
+.about .about-content {
+	padding-right: 0;
+	margin-bottom: 30px;
+}
+.c-butions .contri-content {
+	text-align: left;
+	padding-left: 0;
+	margin-top: 30px;
+}
+.project-detail {
+	margin-top: 30px;
+}
+.our-projects .nav li {
+	border: none;
+	text-shadow: none;
+	box-shadow: none;
+	margin-right: 5px;
+}
+.our-projects .nav li a {
+	padding: 10px 20px;
+}
+.consultation{
+	padding:100px 0;
+}
+.consultation .consultation-image {
+	margin-top: 50px;
+	display: none;
+}
+.consultation .con-head {
+	padding: 10px;
+	border-radius: 4px;
+}
+.blog .single-news .news-body h2 {
+	font-size: 15px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+.blog .single-news .news-body .date {
+	color: #fff;
+	padding: 6px 20px;
+	position: absolute;
+	top: -30px;
+	left: 20px;
+}
+.blog .single-news .date span {
+	font-size: 16px;
+}
+.blog .single-news .news-content {
+	text-align: left;
+	background: #fff;
+	z-index: 99;
+	position: relative;
+	padding: 40px 0 0 0px;
+}
+.contact .single-info {
+	text-align: center;
+	padding: 0px 0;
+}
+}
+@media only screen and (min-width: 768px){
+	.header .main-menu.fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+	box-shadow: 0 0px 15px rgba(0, 0, 0, 20%);
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+}
+
+@media only screen and (max-width: 767px){
+/* .header .middle-header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+	box-shadow: 0 0px 15px rgba(0, 0, 0, 20%);
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+} */
+.section-title {
+	text-align: center;
+	padding: 0;
+}
+.breadcrumbs{
+	text-align:center;
+}
+.breadcrumbs h2{
+	margin-bottom:10px;
+}
+.breadcrumbs h2,
+.breadcrumbs .bread-list {
+	float: none;
+}
+.header .middle-header {
+	background: #fff;
+	padding: 10px 0px;
+	position: sticky;
+	
+}
+.header .main-menu{
+	display:none;
+}
+.mobile-nav{
+	display:block;
+}
+.header .mobile-nav{
+	display:block;
+}
+.header .slicknav_menu {
+	background: transparent;
+	padding: 0;
+}
+.header .slicknav_btn {
+	background: #d68910;
+	padding: 8px 9px;
+	margin: -36px 0px 0 0px;
+	border: none;
+	border-radius: 0px;
+	text-shadow: none;
+}
+.header .drop-down .slicknav_nav .slicknav_arrow {
+	display: block;
+}
+.header .slicknav_menu .mega-widget p {
+	color: #fff;
+	margin: 10px 0;
+}
+.header .slicknav_menu .mega-widget img{
+	width:100%;
+}
+.header .slicknav_menu .mega-widget .image a{
+	display:none;
+}
+.header .slicknav_menu .list-menu span{
+	margin-right:10px;
+}
+.header .slicknav_menu .list-menu{
+	display:block;
+}
+.header .slicknav_menutxt {
+	text-shadow:none;
+}
+.header .slicknav_nav .slicknav_arrow {
+	float: right;
+}
+.header .slicknav_nav a {
+	margin: 0;
+	color: #fff;
+	background: transparent;
+	overflow: hidden;
+}
+.header .slicknav_nav a:hover,
+.header .slicknav_nav a:focus,
+.header .slicknav_nav a:active{
+	color:#fff;
+}
+.header .slicknav_nav a i {
+	display:none;
+}
+.header .slicknav_nav {
+	background: #d68910;
+	margin-top: 10px;
+	padding: 5px;
+}
+.header .slicknav_nav .drop-down{
+	margin:5px 10px;
+}
+.header .slicknav_nav .mega-inner a h4 {
+	float: left;
+	font-weight: 500;
+}
+.header .topbar,
+.single-top.text-right{
+	text-align: center !important;
+	display: none;
+}
+.header .widget-main {
+	float: right;
+	display: none;
+}
+.header .single-top p {
+	font-size: 13px;
+}
+.header .single-widget {
+	margin-right: 10px;
+	padding-left: 30px;
+}
+.header .single-widget i {
+	top: 50%;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	margin-top: -12.5px;
+}
+.header .right-bar {
+	padding-top: 15px;
+}
+.header .nav li a {
+	font-size: 13px;
+	padding: 20px 15px;
+}
+.header .right-bar {
+	display: inline-block;
+}
+.header .search-form {
+	top: 60px;
+}
+.hero-slider,.hero-slider .single-slider {
+	position: relative;
+	height: 500px;
+}
+.hero-slider .single-slider .text h1 {
+	font-size: 25px;
+	line-height: 30px;
+}
+.hero-slider .single-slider .text {
+	float: none;
+	text-align: left;
+	margin: 79px 0;
+}
+.features .single-feature {
+	position: relative;
+	text-align: center;
+}
+.features .serial {
+	font-size: 42px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	left: auto;
+	top: auto;
+	line-height: initial;
+}
+.features .f-content {
+	padding-left: 0;
+}
+.features .f-content h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.features .f-content p{
+	line-height:22px;
+}
+.why-choose .video-main {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	left: 0;
+}
+.why-choose .faq-area {
+	padding: 50px 0;
+}
+.about .about-content {
+	padding-right: 0;
+	margin-bottom: 30px;
+}
+.c-butions .contri-content {
+	text-align: left;
+	padding-left: 10px;
+	margin-top: 30px;
+}
+.our-projects .nav li {
+	border: none;
+	text-shadow: none;
+	box-shadow: none;
+	margin-right: 5px;
+}
+.our-projects .nav li a {
+	padding: 8px 8px;
+	text-transform: capitalize;
+}
+.consultation{
+	padding:100px 0;
+}
+.consultation .consultation-image {
+	margin-top: 50px;
+	display: none;
+}
+.consultation .con-head {
+	padding: 10px;
+	border-radius: 5px;
+}
+.blog .section-title {
+	margin-bottom:30px;
+}
+.blog .single-news {
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	margin-top: 30px;
+}
+.blog .single-news .news-body h2 {
+	font-size: 15px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+.blog .single-news .news-body .date {
+	color: #fff;
+	padding: 6px 20px;
+	position: absolute;
+	top: -30px;
+	left: 20px;
+	
+}
+.blog .single-news .date span {
+	font-size: 16px;
+}
+.blog .single-news .news-content {
+	text-align: left;
+	background: #fff;
+	z-index: 99;
+	position: relative;
+	padding: 40px 0 0 0px;
+}
+.experiences .experience-inner h2 {
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 27px;
+	font-weight: 700;
+}
+.our-projects .pf-right {
+	background: #000000;
+	padding: 25px 20px;
+}
+.clients .single-clients {
+	padding: 10px;
+}
+.newslatter-content{
+	margin-bottom:30px;
+}
+.team .section-title{
+	margin-bottom:30px;
+}
+.team .single-team{
+	margin-top:30px;
+}
+.project-detail {
+	margin-top: 30px;
+}
+.pagination .pagination-list li a {
+	padding: 6px 15px;
+}
+.blog-single .like-comment {
+	float: none;
+	margin-top: 5px;
+}
+.blog-single .comments .single-comment.left {
+	margin-left: 0;
+}
+.error-page .button .btn {
+	padding: 13px 20px;
+	margin-right: 5px;
+}
+.error-page .button .btn:last-child{
+	margin:0;
+}
+.blog-single .reply .form-group {
+	margin-bottom: 15px;
+}
+.contact .single-info{
+	margin-bottom:30px;
+}
+.contact .col-xs-12:last-child .single-info {
+	margin-bottom: 0px;
+}
+.contact #myMap{
+	height:250px;
+}
+.mail-success .mail-inner h2 {
+	font-size: 30px;
+	margin: 10px 0 20px;
+}
+.footer .newslatter-content h2 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+}
