@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://hongkongclash.github.io/news/article-110437.htm" />
+    <!-- Title of The Page -->
+    <title>为什么小火箭只支持SSR而不支持Vmess？原因分析与解决方案</title>
+        <meta name="description" content="在全球化的信息时代，互联网的开放与自由对于每个人来说都变得至关重要。然而，由于各种政策与技术的限制，网络封锁已经成为了全球范围内的一种常见现象。为了突破这些封锁，许多用户选择了使用代理工具来科学上网。" />
+        <link rel="icon" href="/assets/website/img/clashxray/favicon.ico" type="image/x-icon"/>
+
+    <meta name="author" content="香港Clash节点订阅官网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://hongkongclash.github.io/news/article-110437.htm" />
+    <meta property="og:site_name" content="香港Clash节点订阅官网" />
+    <meta property="og:title" content="为什么小火箭只支持SSR而不支持Vmess？原因分析与解决方案" />
+    <meta property="og:image" content="https://hongkongclash.github.io/uploads/20240912/64f0bf57536701d6ec2f2ad67dc911f6.webp" />
+        <meta property="og:release_date" content="2025-05-03T10:28:29" />
+    <meta property="og:updated_time" content="2025-05-03T10:28:29" />
+        <meta property="og:description" content="在全球化的信息时代，互联网的开放与自由对于每个人来说都变得至关重要。然而，由于各种政策与技术的限制，网络封锁已经成为了全球范围内的一种常见现象。为了突破这些封锁，许多用户选择了使用代理工具来科学上网。" />
+        
+    <!-- Meta Informations -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Web Font -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/webfont.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/bootstrap.min.css">
+    <!-- Bootstrap-Theme CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/bootstrap-theme.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/fontawesome.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/slicknav.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/animate.min.css">
+    <!-- Magnific-Popup CSS-->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/magnific-popup.css">
+    <!-- Animate-Text CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/animate-text.css">
+    <!-- Carousel CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/owl.carousel.min.css">
+    <!-- Them Default CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/owl.theme.default.min.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/normalize.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashxray/responsive.css">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
+
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="为什么小火箭只支持SSR而不支持Vmess？原因分析与解决方案">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V7N1RD7Z0J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V7N1RD7Z0J');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!-- Preloader -->
+    <div class="preeloader">
+        <div class="preloader-spinner"></div>
+    </div>
+    <!-- End Preloader -->
+    <div id="particles-js"><canvas class="particles-js-canvas-el" width="1474" height="880" style="width: 100%; height: 100%;"></canvas></div>
+    <!-- Header Area -->
+    <header class="header">
+        <!-- Middle Header -->
+        <div class="middle-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="/">
+                                                        <span>香港Clash</span>
+                                                        </a>
+                        </div>
+                        <!--/ End Logo -->
+                        <div class="mobile-nav"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Middle Header -->
+        <!-- Header Inner -->
+        <div class="main-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <nav class="navbar navbar-default">
+                            <div class="collapse navbar-collapse">
+                                <ul id="nav" class="nav mobile-menu navbar-nav">
+                                                                        <li><a href="/">首页</a></li>
+                                                                        <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                                                        <li><a href="/news/">新闻资讯</a></li>
+                                                                        <li><a href="/client.htm">客户端</a></li>
+                                                                    </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Header Inner -->
+    </header>
+    <!-- End Header Area -->
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs overlay">
+        <div class="container">
+            <div class="row">
+                <div class="bread-inner">
+                    <div class="col-xs-12">
+                        <h1 class="col-xs-8">为什么小火箭只支持SSR而不支持Vmess？原因分析与解决方案</h1>
+                        <ul class="bread-list">
+                            <li><a href="/">首页<i class="fas fa-chevron-right"></i></a></li>
+                            <li><a href="/news/">新闻资讯<i class="fas fa-chevron-right"></i></a></li>
+                            <li class="active">正文</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+    <!-- About Us -->
+    <section class="about section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                                    <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
+                <div class="xcblog-blog-detail xcblog-blog-detail-defined">
+                    
+<p data-start="35" data-end="284" class="">在全球化的信息时代，互联网的开放与自由对于每个人来说都变得至关重要。然而，由于各种政策与技术的限制，网络封锁已经成为了全球范围内的一种常见现象。为了突破这些封锁，许多用户选择了使用代理工具来科学上网。其中，小火箭（Shadowrocket）作为一款在iOS平台上广受欢迎的科学上网工具，成为了许多人突破网络限制的首选。然而，许多用户在使用过程中发现，小火箭只支持SSR协议而不支持Vmess协议，这让一些用户感到困惑。本文将深入探讨这一现象的原因，并提供相应的解决方案，帮助用户更好地理解这一问题。</p>
+<h2 data-start="286" data-end="296" class="">小火箭工具简介</h2>
+<p data-start="298" data-end="463" class="">小火箭（Shadowrocket）是一款专为iOS设备开发的网络代理工具，主要用于突破地域限制、保护用户的网络隐私。作为一个高度优化的代理客户端，小火箭支持多种协议，包括ShadowsocksR（SSR）和Shadowsocks（SS）等。它通过简洁直观的用户界面以及便捷的设置方式，使得用户能够轻松配置代理，享受流畅的网络体验。</p>
+<h3 data-start="465" data-end="477" class="">小火箭的主要特点</h3>
+<ul data-start="479" data-end="682">
+<li data-start="479" data-end="544" class="" style="">
+<p data-start="481" data-end="544" class=""><strong data-start="481" data-end="489">界面友好</strong>：小火箭的界面设计简洁明了，用户可以轻松上手。即使是没有技术背景的用户，也能快速完成配置，享受稳定的代理服务。</p>
+</li>
+<li data-start="548" data-end="608" class="" style="">
+<p data-start="550" data-end="608" class=""><strong data-start="550" data-end="558">灵活性强</strong>：支持多种代理协议，包括SSR和SS等。用户可以根据自己的需求选择最合适的协议，实现高效的网络连接。</p>
+</li>
+<li data-start="610" data-end="682" class="" style="">
+<p data-start="612" data-end="682" class=""><strong data-start="612" data-end="620">优化功能</strong>：小火箭提供了许多优化选项，帮助用户根据不同的网络环境调节设置，提升上网体验。它能够自动选择最佳服务器，优化速度，减少延迟。</p>
+</li>
+</ul>
+<h2 data-start="684" data-end="700" class="">SSR与Vmess协议简介</h2>
+<p data-start="702" data-end="770" class="">在小火箭中，SSR协议是用户使用的主要代理协议。那么，SSR和Vmess究竟有哪些区别呢？为什么小火箭只支持SSR，而不支持Vmess？</p>
+<h3 data-start="772" data-end="783" class="">SSR协议简介</h3>
+<p data-start="785" data-end="916" class="">SSR（ShadowsocksR）是Shadowsocks（SS）的一个改进版本，增加了流量混淆和数据转发等功能，使得网络传输更加隐蔽，能够有效避开封锁。SSR协议相较于Shadowsocks具有更高的抗封锁能力，特别适合在高强度网络封锁环境下使用。其优点包括：</p>
+<ul data-start="918" data-end="1052">
+<li data-start="918" data-end="954" class="">
+<p data-start="920" data-end="954" class=""><strong data-start="920" data-end="928">流量混淆</strong>：通过多种混淆方式，使得网络流量更难以被检测和阻断。</p>
+</li>
+<li data-start="955" data-end="991" class="">
+<p data-start="957" data-end="991" class=""><strong data-start="957" data-end="965">高级加密</strong>：SSR使用了多种加密方式，提升了数据传输的安全性。</p>
+</li>
+<li data-start="992" data-end="1052" class="">
+<p data-start="994" data-end="1052" class=""><strong data-start="994" data-end="1004">多种协议支持</strong>：SSR支持多种传输协议，包括HTTP、HTTPS、SOCKS5等，可以灵活适应不同的网络环境。</p>
+</li>
+</ul>
+<h3 data-start="1054" data-end="1067" class="">Vmess协议简介</h3>
+<p data-start="1069" data-end="1163" class="">Vmess是V2Ray项目中的一个重要协议，主要用于构建复杂的代理网络。Vmess协议相比SSR，在安全性和灵活性方面具有一定优势，特别是在应对高等级的网络封锁时表现更为出色。其特点包括：</p>
+<ul data-start="1165" data-end="1313">
+<li data-start="1165" data-end="1213" class="">
+<p data-start="1167" data-end="1213" class=""><strong data-start="1167" data-end="1178">复杂的加密机制</strong>：Vmess协议内置了更复杂的加密机制，能够更好地防止数据泄露和篡改。</p>
+</li>
+<li data-start="1214" data-end="1266" class="">
+<p data-start="1216" data-end="1266" class=""><strong data-start="1216" data-end="1226">多种传输方式</strong>：Vmess支持WebSocket、mKCP等多种传输协议，提供了更高的灵活性。</p>
+</li>
+<li data-start="1267" data-end="1313" class="">
+<p data-start="1269" data-end="1313" class=""><strong data-start="1269" data-end="1278">完整性保护</strong>：Vmess通过消息认证和校验机制，保证数据的完整性，避免中间人攻击。</p>
+</li>
+</ul>
+<h2 data-start="1315" data-end="1339" class="">小火箭为何只支持SSR而不支持Vmess？</h2>
+<h3 data-start="1341" data-end="1353" class="">1. 协议适配性</h3>
+<p data-start="1355" data-end="1553" class="">小火箭自始至终更倾向于支持SSR协议，而Vmess协议在小火箭中并未得到充分支持。SSR作为Shadowsocks的衍生版本，具有较强的隐蔽性和适配性，更适合在封锁环境中使用。小火箭的内核和主要功能与SSR协议的兼容性更好，这使得SSR成为了小火箭的首选协议。而Vmess协议的设计较为复杂，涉及到的加密和传输机制对小火箭的架构而言可能并不适配，这也是小火箭没有支持Vmess协议的一个重要原因。</p>
+<h3 data-start="1555" data-end="1566" class="">2. 应用设计</h3>
+<p data-start="1568" data-end="1771" class="">小火箭的设计目标是快速加载并提供简洁的使用体验。为了保持应用的简洁和高效，小火箭并没有集成一些对技术要求较高的功能。Vmess协议相对于SSR而言，涉及到更多的配置选项和复杂的网络设置。小火箭的开发团队在优化用户体验时，放弃了一些复杂的协议支持，以减少用户的学习曲线和操作难度。虽然Vmess在某些情况下能提供更高的安全性和更好的性能，但在小火箭的设计理念中，SSR协议的简单性和易用性显然更加符合其目标。</p>
+<h3 data-start="1773" data-end="1785" class="">3. 安全性考量</h3>
+<p data-start="1787" data-end="1980" class="">尽管Vmess在复杂的网络环境中表现优异，但SSR协议的安全性并不逊色。SSR通过多重加密和混淆手段，能够有效隐藏网络流量，使得数据难以被检测到。SSR协议在抗封锁和避开网络监控方面表现出色，且具有较强的兼容性。因此，许多用户和开发者认为，SSR是一个在当前网络环境下更为成熟和高效的选择。在安全性方面，SSR已经能够满足大部分用户的需求，这也是小火箭选择优先支持SSR协议的原因之一。</p>
+<h2 data-start="1982" data-end="2003" class="">如何在其他工具中使用Vmess协议？</h2>
+<p data-start="2005" data-end="2069" class="">虽然小火箭不支持Vmess协议，但用户仍然可以通过其他工具来实现Vmess协议的使用。以下是几种常见的支持Vmess协议的工具：</p>
+<h3 data-start="2071" data-end="2083" class="">1. Surge</h3>
+<p data-start="2085" data-end="2228" class="">Surge是一款功能强大的iOS和macOS平台的网络代理工具，支持多种协议，包括Vmess协议。与小火箭相比，Surge的配置选项更多，用户可以根据自己的需求进行更细致的设置。尽管Surge的设置稍显复杂，但它在支持Vmess协议方面表现出色，适合需要更高自由度和更多配置选项的用户。</p>
+<h3 data-start="2230" data-end="2242" class="">2. V2Ray</h3>
+<p data-start="2244" data-end="2381" class="">V2Ray是一个功能全面的代理工具，专为处理高强度网络封锁而设计。它原生支持Vmess协议，用户可以在V2Ray中配置和使用Vmess协议，突破地理限制，确保网络安全。V2Ray的功能非常强大，但与小火箭相比，其配置过程可能需要更多的技术知识，适合有一定技术背景的用户使用。</p>
+<h2 data-start="2383" data-end="2401" class="">解决方案：如何选择适合的工具？</h2>
+<ul data-start="2403" data-end="2596">
+<li data-start="2403" data-end="2495" class="">
+<p data-start="2405" data-end="2495" class=""><strong data-start="2405" data-end="2427">如果你是小白用户，追求简单易用的工具</strong>：可以继续使用小火箭。尽管它不支持Vmess协议，但SSR协议已经能满足大多数用户的需求，并且其简洁的界面和操作流程非常适合入门级用户。</p>
+</li>
+<li data-start="2496" data-end="2596" class="">
+<p data-start="2498" data-end="2596" class=""><strong data-start="2498" data-end="2518">如果你需要更高的灵活性和协议支持</strong>：可以考虑使用Surge或V2Ray。这些工具不仅支持Vmess协议，还提供了更多高级功能和配置选项，适合那些需要在复杂网络环境中进行精细化控制的高级用户。</p>
+</li>
+</ul>
+<h2 data-start="2598" data-end="2607" class="">常见问题解答</h2>
+<h3 data-start="2609" data-end="2631" class="">1. 为什么小火箭不支持Vmess？</h3>
+<p data-start="2633" data-end="2726" class="">答：小火箭的设计更加注重SSR协议的支持，考虑到SSR的简单性和易用性，其内核与SSR协议兼容性更好。同时，Vmess协议需要更复杂的设置和更高的技术要求，因此小火箭未将其纳入支持范围。</p>
+<h3 data-start="2728" data-end="2750" class="">2. 小火箭与Vmess协议的区别？</h3>
+<p data-start="2752" data-end="2830" class="">答：SSR协议在隐蔽性和抗封锁性方面更强，适合大多数用户的需求。而Vmess协议则提供了更复杂的安全性选项，适用于更高等级的网络封锁，但相应的配置较为复杂。</p>
+<h3 data-start="2832" data-end="2851" class="">3. 如何使用Vmess协议？</h3>
+<p data-start="2853" data-end="2924" class="">答：虽然小火箭不支持Vmess协议，但用户可以转向其他支持Vmess的工具，如Surge或V2Ray，以满足更高安全性和更复杂网络环境的需求。</p>
+<h2 data-start="2926" data-end="2931" class="">结论</h2>
+<p data-start="2933" data-end="3134" class="">综上所述，小火箭之所以只支持SSR协议而不支持Vmess协议，主要是因为SSR协议在隐蔽性、兼容性和使用简便性方面的优势。尽管Vmess在某些网络环境中表现更加出色，但由于其配置复杂性和对工具的高要求，尚未被小火箭所采纳。如果您需要使用Vmess协议，可以考虑其他工具，如Surge和V2Ray，它们能够提供更多的功能和更高的灵活性。无论如何，选择适合自己的工具，才能更好地保障网络安全，突破网络封锁。</p>                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-109572.htm">全面指南：免费获取与配置V2Ray香港节点，实现高速科学上网</a></p>
+                                        <p>下一个：<a href="/news/article-110440.htm">深入了解Clash：一个强大的网络代理工具及其多重功能</a></p>
+                                    </div>
+                                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-110440.htm" title="深入了解Clash：一个强大的网络代理工具及其多重功能">深入了解Clash：一个强大的网络代理工具及其多重功能</a></li>
+                        <li class="py-2"><a href="/news/article-102040.htm" title="深入解析V2Ray：特点、优势与应用场景详解">深入解析V2Ray：特点、优势与应用场景详解</a></li>
+                        <li class="py-2"><a href="/news/article-109572.htm" title="全面指南：免费获取与配置V2Ray香港节点，实现高速科学上网">全面指南：免费获取与配置V2Ray香港节点，实现高速科学上网</a></li>
+                        <li class="py-2"><a href="/news/article-112664.htm" title="Clash 代理无法打开？一文彻底搞定所有疑难杂症">Clash 代理无法打开？一文彻底搞定所有疑难杂症</a></li>
+                        <li class="py-2"><a href="/news/article-105260.htm" title="深入解析：如何通过v2ray与Cloudflare的结合提升网络安全与隐私保护">深入解析：如何通过v2ray与Cloudflare的结合提升网络安全与隐私保护</a></li>
+                        <li class="py-2"><a href="/news/article-100647.htm" title="完全指南：如何下载、安装和配置 Clash 安卓系统">完全指南：如何下载、安装和配置 Clash 安卓系统</a></li>
+                        <li class="py-2"><a href="/news/article-101260.htm" title="深入解析工艺冲突现象及其解决方案">深入解析工艺冲突现象及其解决方案</a></li>
+                        <li class="py-2"><a href="/news/article-111958.htm" title="Walkr：科学上网与健康生活的完美结合">Walkr：科学上网与健康生活的完美结合</a></li>
+                        <li class="py-2"><a href="/news/article-99117.htm" title="全面解析 Quantumult X：iOS 上最强代理工具的下载与安装配置指南">全面解析 Quantumult X：iOS 上最强代理工具的下载与安装配置指南</a></li>
+                        <li class="py-2"><a href="/news/article-100646.htm" title="深入解析Shadowrocket二维码功能：配置、生成与扫描教程">深入解析Shadowrocket二维码功能：配置、生成与扫描教程</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">14</span> <a href="/date/2025-05/" title="2025-05 归档">2025-05</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-04/" title="2025-04 归档">2025-04</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Us -->
+        <!-- Footer Area -->
+    <footer class="footer">
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="copyright-content">
+                                                <p>
+                                                <a href="/">首页</a> |
+                                                <a href="/paid-subscribe/">推荐机场</a> |
+                                                <a href="/news/">新闻资讯</a> |
+                                                <a href="/client.htm">客户端</a> |
+                                                <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                            <p>
+                                <a href="/">香港Clash节点订阅官网</a> 版权所有 Powered by WordPress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright -->
+    </footer>
+    <!-- End Footer Area -->
+    <!-- Jquery JS -->
+    <script src="/assets/website/js/frontend/clashxray/jquery.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="/assets/website/js/frontend/clashxray/bootstrap.min.js"></script>
+    <!-- Slicknav Js  -->
+    <script src="/assets/website/js/frontend/clashxray/jquery.slicknav.min.js"></script>
+    <!-- ScrollUp Js -->
+    <script src="/assets/website/js/frontend/clashxray/jquery.scrollUp.min.js"></script>
+    <!-- Carousel Js -->
+    <script src="/assets/website/js/frontend/clashxray/owl.carousel.min.js"></script>
+    <!-- Waypoints Js -->
+    <script src="/assets/website/js/frontend/clashxray/waypoints.min.js"></script>
+    <!--Counterup Js  -->
+    <script src="/assets/website/js/frontend/clashxray/jquery.counterup.min.js"></script>
+    <!-- Stellar Js  -->
+    <script src="/assets/website/js/frontend/clashxray/jquery.stellar.min.js"></script>
+    <!-- Min Js -->
+    <script src="/assets/website/js/frontend/clashxray/wow.min.js"></script>
+    <!-- Animate-Text Js -->
+    <script src="/assets/website/js/frontend/clashxray/animate-text.js"></script>
+    <!-- Easing Js -->
+    <script src="/assets/website/js/frontend/clashxray/easing.min.js"></script>
+    <!-- Magnific Js -->
+    <script src="/assets/website/js/frontend/clashxray/jquery.magnific-popup.min.js"></script>
+    <!-- Particales Js -->
+    <script src="/assets/website/js/frontend/clashxray/particles.min.js"></script>
+    <!-- Particales-Code Js -->
+    <script src="/assets/website/js/frontend/clashxray/particle-code.js"></script>
+    <!-- Main Js -->
+    <script src="/assets/website/js/frontend/clashxray/main.js"></script>
+    <!-- Custom Js -->
+    <script src="/assets/website/js/frontend/clashxray/custom.js"></script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+    <script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
+</html>
