@@ -1,4 +1,4 @@
-# 香港Clash | 11月13日18.5M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Clash节点订阅机场  更新时间 2025-11-13 11:00:04
+# 香港Clash | 11月21日20.4M/S|免费V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点订阅机场  更新时间 2025-11-21 09:10:47
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://hongkongclash.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://hongkongclash.github.io/uploads/2025/11/0-20251113.yaml
-- https://hongkongclash.github.io/uploads/2025/11/1-20251113.yaml
-- https://hongkongclash.github.io/uploads/2025/11/2-20251113.yaml
-- https://hongkongclash.github.io/uploads/2025/11/3-20251113.yaml
-- https://hongkongclash.github.io/uploads/2025/11/4-20251113.yaml
+- https://hongkongclash.github.io/uploads/2025/11/0-20251121.yaml
+- https://hongkongclash.github.io/uploads/2025/11/1-20251121.yaml
+- https://hongkongclash.github.io/uploads/2025/11/2-20251121.yaml
+- https://hongkongclash.github.io/uploads/2025/11/3-20251121.yaml
+- https://hongkongclash.github.io/uploads/2025/11/4-20251121.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://hongkongclash.github.io/uploads/2025/11/0-20251113.txt
-- https://hongkongclash.github.io/uploads/2025/11/1-20251113.txt
-- https://hongkongclash.github.io/uploads/2025/11/2-20251113.txt
-- https://hongkongclash.github.io/uploads/2025/11/3-20251113.txt
-- https://hongkongclash.github.io/uploads/2025/11/4-20251113.txt
+- https://hongkongclash.github.io/uploads/2025/11/0-20251121.txt
+- https://hongkongclash.github.io/uploads/2025/11/1-20251121.txt
+- https://hongkongclash.github.io/uploads/2025/11/2-20251121.txt
+- https://hongkongclash.github.io/uploads/2025/11/3-20251121.txt
+- https://hongkongclash.github.io/uploads/2025/11/4-20251121.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://hongkongclash.github.io/uploads/2025/11/20251113.json
+- https://hongkongclash.github.io/uploads/2025/11/20251121.json
 
 ## 更多Clash节点订阅 ：
 
