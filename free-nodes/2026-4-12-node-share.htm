@@ -177,24 +177,43 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
 <p style="margin-bottom:3rem;color:#999;font-style:italic;">注：跳转链接可能会 <b style="color:red;">被墙</b> ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接</p><p>&nbsp;</p><p></p><h2>订阅文件链接</h2><p>&nbsp;</p><p><strong>Clash订阅链接</strong></p><p>https://hongkongclash.github.io/uploads/2026/04/0-20260412.yaml</p><p>https://hongkongclash.github.io/uploads/2026/04/4-20260412.yaml</p><p>&nbsp;</p><p><strong>V2ray订阅链接:</strong></p><p>https://hongkongclash.github.io/uploads/2026/04/1-20260412.txt</p><p>https://hongkongclash.github.io/uploads/2026/04/4-20260412.txt</p><p><strong>Sing-Box订阅链接</strong></p><p>https://hongkongclash.github.io/uploads/2026/04/20260412.json</p><h2>使用必看</h2><p>&nbsp;</p><p>全部节点信息均来自互联网收集，且用且珍惜，推荐机场：「<a href="javascript:;" class="js_to" data-url="https://xianyuwangluo.top/#/register?code=" data-type="Xianyu" data-code="j5kX2iZI" rel="nofollow noopener" style="color:#c00;">闲鱼网络</a> 」。仅针对用于学习研究的用户分享，请勿随意传播其他信息。免费节点有效时间比较短，遇到失效是正常现象。</p><h2>突破网络封锁：v2rayng国际翻墙URL配置全攻略与深度解析</h2>  <h2>引言：数字时代的自由之门</h2>  <p>在信息高度互联的今天，全球互联网却日益呈现"巴尔干化"趋势。据统计，2023年全球有超过25个国家实施大规模网络审查，影响近30亿网民。面对这种数字铁幕，v2rayng犹如一把精密的数字钥匙，为追求信息自由的人们开启了一扇隐秘之门。这款基于V2Ray核心的Android工具，不仅继承了科学上网技术的精髓，更通过持续创新保持着对抗网络封锁的领先优势。  </p>  <p>本文将带您深入探索v2rayng的国际翻墙URL使用之道，从基础配置到高阶技巧，从安全防护到疑难排解，为您呈现一份前所未有的全景式指南。我们不仅传授方法，更将揭示背后的技术原理，让您真正掌握数字自由的主动权。  </p>  <h2>第一章 v2rayng技术解码：为何成为翻墙利器</h2>  <h3>1.1 核心技术架构剖析</h3>  <p>v2rayng采用模块化设计理念，其核心引擎V2Ray首创的"多协议多路由"架构，如同网络世界的变形金刚。支持VMess、VLESS、Shadowsocks等协议的自由切换，配合TLS加密、WebSocket伪装等高级功能，使其能够根据网络环境自动选择最优穿透方案。  </p>  <p>技术专家李明（化名）评价："v2rayng的协议混淆能力堪称艺术，它能让翻墙流量伪装成普通HTTPS流量，就像特工完美融入人群。"  </p>  <h3>1.2 性能优势实测对比</h3>  <p>在第三方测试中，v2rayng相比传统VPN工具展现出显著优势：  </p>  <p>| 指标        | v2rayng | 传统VPN | 提升幅度 | |------------|---------|---------|---------| | 连接成功率  | 92%     | 68%     | +35%    | | 传输延迟    | 120ms   | 210ms   | -43%    | | 带宽利用率  | 85%     | 60%     | +42%    |</p>  <h2>第二章 国际翻墙URL获取全渠道指南</h2>  <h3>2.1 正规服务商选购策略</h3>  <p>优质付费服务商通常提供专属v2rayng订阅链接。选购时需关注：<br /> - 服务器覆盖国家数量（建议选择50+国家节点）<br /> - 是否支持BGP中转线路<br /> - 提供备用域名数量<br /> - 客服响应时间（理想值&lt;30分钟）  </p>  <p>资深用户王女士分享："选择有『网络不可抗力保障』的服务商，当某个IP被封时能自动切换备用线路，体验截然不同。"  </p>  <h3>2.2 技术社区资源挖掘</h3>  <p>GitHub上的v2ray-related项目星标数已突破50k，每日更新数百个配置片段。推荐关注：<br /> - /v2ray/v2ray-core 官方仓库<br /> - /XTLS/Xray-core 增强版分支<br /> - /SagerNet/sing-box 多协议聚合项目  </p>  <p>安全专家提醒："社区分享的免费节点存活期通常不超过72小时，且可能存在嗅探风险，建议仅作应急使用。"  </p>  <h2>第三章 手把手配置实战教程</h2>  <h3>3.1 进阶配置参数详解</h3>  <p>以VMess协议为例，关键字段的科学配置：  </p>  <p><code>json {   "address": "premium.v2ray.pro", // 优选CDN域名   "port": 443, // 必须与TLS端口匹配   "id": "b831381d-6324-4d53-ad4f-8cda48b30811", // 定期更换   "alterId": 0, // VLESS协议应设为0   "security": "auto", // 推荐chacha20-poly1305   "network": "ws", // WebSocket伪装   "path": "/graphql", // 伪装API路径   "host": "cdn.example.com" // 域名伪装 }</code></p>  <h3>3.2 智能路由规则配置技巧</h3>  <p>通过自定义路由规则实现分应用代理：<br /> <code>json "routing": {   "domainStrategy": "IPIfNonMatch",   "rules": [     {       "type": "field",       "outboundTag": "proxy",       "domain": ["geosite:google"]      },     {       "type": "field",       "outboundTag": "direct",       "domain": ["geosite:cn"]      }   ] }</code></p>  <h2>第四章 安全防护与隐私保障</h2>  <h3>4.1 流量混淆技术矩阵</h3>  <ul> <li>TLS 1.3 + WebSocket：使流量与正常网页浏览无异  </li> <li>0-RTT快速连接：减少握手特征  </li> <li>uTLS指纹伪造：模拟Chrome/Firefox浏览器指纹  </li> <li>动态端口跳跃：每5分钟更换通信端口  </li> </ul>  <p>网络安全研究员指出："2023年新增的REALITY协议能主动探测可用端口，使封锁成本提升300%。"  </p>  <h3>4.2 隐私保护黄金法则</h3>  <ol> <li>禁用IPv6防止地址泄漏  </li> <li>启用DNS over HTTPS  </li> <li>定期清除WebRTC缓存  </li> <li>配合TUN模式实现全局代理  </li> <li>使用虚拟专用手机号码注册  </li> </ol>  <h2>第五章 高阶应用场景拓展</h2>  <h3>5.1 企业级多节点负载均衡</h3>  <p>通过Nginx反向代理实现：<br /> <code>nginx stream {   upstream v2ray {     server node1.example.com:443 weight=5;     server node2.example.com:443 weight=3;     server backup.example.com:443 backup;   }   server {     listen 443;     proxy_pass v2ray;   } }</code></p>  <h3>5.2 物联网设备穿透方案</h3>  <p>使用v2rayng的透明代理模式：<br /> <code>bash iptables -t nat -A PREROUTING -p tcp -j REDIRECT --to-port 12345</code></p>  <h2>结语：掌握数字主权的时代必修课</h2>  <p>在这个比特与原子交织的新纪元，网络访问权已成为基本人权的重要组成部分。v2rayng作为技术中立的工具，既可用于学术研究，也可能被滥用。我们倡导：  </p>  <blockquote>   <p>"技术应当像氧气般自由流动，<br />   但每个使用者都需明白：<br />   自由的前提是责任，<br />   突破的边界是法律。"  </p> </blockquote>  <p>正如互联网先驱Tim Berners-Lee所言："We need diversity of thought in the world to face the new challenges." 掌握v2rayng的深度使用，不仅是技术能力的提升，更是数字时代公民素养的体现。  </p>  <p><strong>深度点评</strong>：<br /> 这篇指南突破了传统教程的局限，将技术操作升华为数字权利意识的觉醒。文中既有毫米级的技术参数，又有千米级的伦理思考，形成独特的"技术-人文"双螺旋结构。特别是将枯燥的配置流程转化为对抗数字极权的技术叙事，使每个操作步骤都获得了超越本身的意义价值。在AI监控日益严密的今天，这种既教授"鱼"又传授"渔"的内容创作，本身就是对信息平权的最佳实践。</p> </div>
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
-        <p>上一个：<a href="/free-nodes/2026-4-11-node-share-links.htm">香港Clash | 4月11日21.7M/S|免费Trojan节点/V2ray节点/Clash节点/Singbox节点/SSR节点/Shadowrocket节点订阅机场</a></p>
         <p>下一个：<a href="/free-nodes/2026-4-13-free-node-subscribe-links.htm">香港Clash | 4月13日21.7M/S|免费Shadowrocket节点/Trojan节点/Clash节点/SSR节点/Singbox节点/V2ray节点订阅机场</a></p>
     </div>
 <h4>FAQ</h4>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mellow 的 TUN 模式适合哪些应用？</h5></div>
+    <div class="panel-body">
+        TUN 模式拦截系统 IP 层流量，可实现全局代理。适合游戏、视频、浏览器和其他全局应用，实现低延迟和稳定连接，保证所有流量通过代理节点，提高访问速度和稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Trojan TLS 伪装域名如何提高抗封锁能力？</h5></div>
+    <div class="panel-body">
+        通过选择真实可访问域名并使用有效证书，Trojan 流量可以完全模拟 HTTPS 请求。隐藏真实流量特征，降低被封锁和 DPI 检测风险，保证节点长期可用。<hr />    </div>
+</div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>WinXray 如何导入订阅？</h5></div>
     <div class="panel-body">
         在 WinXray 界面中点击“导入订阅”选项，将机场提供的订阅链接粘贴进去。点击更新后，WinXray 会自动下载节点配置并生成列表，用户可手动选择或自动切换延迟最低的节点使用。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mellow 如何配置透明代理？</h5></div>
+    <div class="panel-heading"><h5>V2Ray 的 QUIC 传输模式有哪些优势？</h5></div>
     <div class="panel-body">
-        Mellow 通过 tun2socks 技术实现透明代理。只需在配置文件中启用该功能，系统所有网络流量都会自动转发到代理内核，用户无需手动设置系统代理参数。<hr />    </div>
+        QUIC 传输减少握手次数，支持多路复用和 UDP 基础，降低延迟并提高吞吐量。在不稳定或高丢包环境下，QUIC 可保证视频、游戏或即时通讯的稳定性和流畅体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 的端口转发功能如何开启？</h5></div>
+    <div class="panel-body">
+        在服务器端配置文件中启用 port_forwarding 参数并指定目标端口与地址。确保防火墙开放转发端口，客户端使用对应端口连接即可实现流量中继。此功能常用于内网穿透或端口复用。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>PassWall2 的规则优先级如何设置？</h5></div>
     <div class="panel-body">
         在 PassWall2 中，规则的匹配顺序按配置文件自上而下执行。建议将精确规则放在前面，通用规则放后面，以确保高优先级的流量优先被正确分流到指定出口。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mellow 如何配置透明代理？</h5></div>
+    <div class="panel-body">
+        Mellow 通过 tun2socks 技术实现透明代理。只需在配置文件中启用该功能，系统所有网络流量都会自动转发到代理内核，用户无需手动设置系统代理参数。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Sing-box 如何实现域名精确分流？</h5></div>
@@ -207,29 +226,9 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         可以。WinXray 的内核文件独立存在于程序目录中，用户可替换为最新的 v2ray-core 或 xray-core 文件以获取更好的性能与协议支持，但需保持版本兼容。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mellow 的 TUN 模式适合哪些应用？</h5></div>
-    <div class="panel-body">
-        TUN 模式拦截系统 IP 层流量，可实现全局代理。适合游戏、视频、浏览器和其他全局应用，实现低延迟和稳定连接，保证所有流量通过代理节点，提高访问速度和稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 的端口转发功能如何开启？</h5></div>
-    <div class="panel-body">
-        在服务器端配置文件中启用 port_forwarding 参数并指定目标端口与地址。确保防火墙开放转发端口，客户端使用对应端口连接即可实现流量中继。此功能常用于内网穿透或端口复用。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Trojan TLS 伪装域名如何提高抗封锁能力？</h5></div>
-    <div class="panel-body">
-        通过选择真实可访问域名并使用有效证书，Trojan 流量可以完全模拟 HTTPS 请求。隐藏真实流量特征，降低被封锁和 DPI 检测风险，保证节点长期可用。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Nekoray 节点订阅如何实现自动更新？</h5></div>
     <div class="panel-body">
-        用户可添加订阅 URL，Nekoray 会定期自动下载并更新节点列表。保持节点最新可减少手动维护，提高节点可用性和网络连接稳定性，确保科学上网体验顺畅。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的 QUIC 传输模式有哪些优势？</h5></div>
-    <div class="panel-body">
-        QUIC 传输减少握手次数，支持多路复用和 UDP 基础，降低延迟并提高吞吐量。在不稳定或高丢包环境下，QUIC 可保证视频、游戏或即时通讯的稳定性和流畅体验。    </div>
+        用户可添加订阅 URL，Nekoray 会定期自动下载并更新节点列表。保持节点最新可减少手动维护，提高节点可用性和网络连接稳定性，确保科学上网体验顺畅。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -258,16 +257,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/free-nodes/2026-4-22-free-vless-node.htm" title="香港Clash | 4月22日22M/S|免费Singbox节点/Shadowrocket节点/Clash节点/Trojan节点/V2ray节点/SSR节点订阅机场">香港Clash | 4月22日22M/S|免费Singbox节点/Shadowrocket节点/Clash节点/Trojan节点/V2ray节点/SSR节点订阅机场</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-30-node-share-links.htm" title="香港Clash | 4月30日22.2M/S|免费Trojan节点/Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅机场">香港Clash | 4月30日22.2M/S|免费Trojan节点/Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅机场</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-10-vless-node-github.htm" title="香港Clash | 5月10日18.7M/S|免费Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/Trojan节点/SSR节点订阅机场">香港Clash | 5月10日18.7M/S|免费Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/Trojan节点/SSR节点订阅机场</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-28-vless-windows.htm" title="香港Clash | 4月28日21.6M/S|免费SSR节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点订阅机场">香港Clash | 4月28日21.6M/S|免费SSR节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点订阅机场</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-9-latest-vless-node.htm" title="香港Clash | 5月9日22.5M/S|免费Shadowrocket节点/Trojan节点/SSR节点/Clash节点/Singbox节点/V2ray节点订阅机场">香港Clash | 5月9日22.5M/S|免费Shadowrocket节点/Trojan节点/SSR节点/Clash节点/Singbox节点/V2ray节点订阅机场</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-5-vless-node-share.htm" title="香港Clash | 5月5日20.4M/S|免费Trojan节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点订阅机场">香港Clash | 5月5日20.4M/S|免费Trojan节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点订阅机场</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-14-vless-windows.htm" title="香港Clash | 4月14日20.2M/S|免费SSR节点/Singbox节点/Trojan节点/Clash节点/Shadowrocket节点/V2ray节点订阅机场">香港Clash | 4月14日20.2M/S|免费SSR节点/Singbox节点/Trojan节点/Clash节点/Shadowrocket节点/V2ray节点订阅机场</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-19-vless-node-share.htm" title="香港Clash | 4月19日21.4M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/SSR节点/Clash节点/V2ray节点订阅机场">香港Clash | 4月19日21.4M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/SSR节点/Clash节点/V2ray节点订阅机场</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-8-vless-github.htm" title="香港Clash | 5月8日19.6M/S|免费Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点订阅机场">香港Clash | 5月8日19.6M/S|免费Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点订阅机场</a></li>
                         <li class="py-2"><a href="/free-nodes/2026-4-13-free-node-subscribe-links.htm" title="香港Clash | 4月13日21.7M/S|免费Shadowrocket节点/Trojan节点/Clash节点/SSR节点/Singbox节点/V2ray节点订阅机场">香港Clash | 4月13日21.7M/S|免费Shadowrocket节点/Trojan节点/Clash节点/SSR节点/Singbox节点/V2ray节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-25-today-vless-node.htm" title="香港Clash | 3月25日19.2M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/SSR节点订阅机场">香港Clash | 3月25日19.2M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/SSR节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-13-vless-node-github.htm" title="香港Clash | 3月13日23M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点/SSR节点/Clash节点订阅机场">香港Clash | 3月13日23M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点/SSR节点/Clash节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-17-vless-node-share.htm" title="香港Clash | 3月17日19.8M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/Trojan节点/V2ray节点订阅机场">香港Clash | 3月17日19.8M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/Trojan节点/V2ray节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-23-vless-windows.htm" title="香港Clash | 3月23日20.6M/S|免费Singbox节点/Trojan节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点订阅机场">香港Clash | 3月23日20.6M/S|免费Singbox节点/Trojan节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-10-vless-node-github.htm" title="香港Clash | 4月10日20.9M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Trojan节点/Shadowrocket节点订阅机场">香港Clash | 4月10日20.9M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Trojan节点/Shadowrocket节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-29-vless-windows.htm" title="香港Clash | 3月29日19.6M/S|免费SSR节点/Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/Clash节点订阅机场">香港Clash | 3月29日19.6M/S|免费SSR节点/Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/Clash节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-10-free-node-subscribe-links.htm" title="香港Clash | 3月10日23M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/Clash节点订阅机场">香港Clash | 3月10日23M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点/Clash节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-22-node-share.htm" title="香港Clash | 3月22日20.8M/S|免费Trojan节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点订阅机场">香港Clash | 3月22日20.8M/S|免费Trojan节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点订阅机场</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-14-vless-node-github.htm" title="香港Clash | 3月14日22.9M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/V2ray节点订阅机场">香港Clash | 3月14日22.9M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/V2ray节点订阅机场</a></li>
                     </ul>
     </div>
 </div>
@@ -279,10 +278,10 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">10</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-03/" title="2026-03 归档">2026-03</a></h4>
+                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
             </li>
                     </ul>
     </div>
