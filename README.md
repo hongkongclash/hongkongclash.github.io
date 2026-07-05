@@ -1,4 +1,4 @@
-# 香港Clash | 6月28日21.9M/S|免费Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点订阅机场  更新时间 2026-06-28 08:30:12
+# 香港Clash | 7月5日18.3M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点订阅机场  更新时间 2026-07-05 09:49:24
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://hongkongclash.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://hongkongclash.github.io/uploads/2026/06/0-20260628.yaml
-- https://hongkongclash.github.io/uploads/2026/06/1-20260628.yaml
-- https://hongkongclash.github.io/uploads/2026/06/2-20260628.yaml
-- https://hongkongclash.github.io/uploads/2026/06/3-20260628.yaml
-- https://hongkongclash.github.io/uploads/2026/06/4-20260628.yaml
+- https://hongkongclash.github.io/uploads/2026/07/0-20260705.yaml
+- https://hongkongclash.github.io/uploads/2026/07/1-20260705.yaml
+- https://hongkongclash.github.io/uploads/2026/07/2-20260705.yaml
+- https://hongkongclash.github.io/uploads/2026/07/3-20260705.yaml
+- https://hongkongclash.github.io/uploads/2026/07/4-20260705.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://hongkongclash.github.io/uploads/2026/06/0-20260628.txt
-- https://hongkongclash.github.io/uploads/2026/06/1-20260628.txt
-- https://hongkongclash.github.io/uploads/2026/06/2-20260628.txt
-- https://hongkongclash.github.io/uploads/2026/06/3-20260628.txt
-- https://hongkongclash.github.io/uploads/2026/06/4-20260628.txt
+- https://hongkongclash.github.io/uploads/2026/07/0-20260705.txt
+- https://hongkongclash.github.io/uploads/2026/07/1-20260705.txt
+- https://hongkongclash.github.io/uploads/2026/07/2-20260705.txt
+- https://hongkongclash.github.io/uploads/2026/07/3-20260705.txt
+- https://hongkongclash.github.io/uploads/2026/07/4-20260705.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://hongkongclash.github.io/uploads/2026/06/20260628.json
+- https://hongkongclash.github.io/uploads/2026/07/20260705.json
 
 ## 更多Clash节点订阅 ：
 
