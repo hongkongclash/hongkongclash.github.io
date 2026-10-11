@@ -298,39 +298,9 @@ Clash的灵活性和协议支持是其最大优势之一。它不仅支持多种
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mellow 的 TUN 模式能全局代理吗？</h5></div>
-    <div class="panel-body">
-        TUN 模式拦截系统 IP 层流量，可实现全局代理，无需手动设置浏览器或应用代理。适合需要全局科学上网或游戏加速的场景，保证所有流量均走代理节点。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 的节点测速结果如何应用？</h5></div>
-    <div class="panel-body">
-        节点测速结果可用于策略组选择和自动切换，程序会根据延迟和丢包率选择最优节点。这样访问海外网站或流媒体时，可以保持高速和稳定的网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekobox 是否可以与 Shadowsocks 客户端共存？</h5></div>
-    <div class="panel-body">
-        可以。Nekobox 配置独立，不影响其他客户端运行。用户可以同时使用 Shadowsocks、Clash 等客户端，通过策略组或分流规则选择合适节点，互不干扰。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>V2Ray 如何通过策略组优化访问速度？</h5></div>
     <div class="panel-body">
         策略组允许用户将节点按延迟、地域或用途分组。结合路由规则，V2Ray 会自动选择最优节点处理流量，提升访问速度并降低延迟，尤其在访问海外网站时效果明显。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Trojan TLS 伪装如何降低被封锁风险？</h5></div>
-    <div class="panel-body">
-        通过选择真实可访问的域名并安装有效证书，Trojan 流量可完全模拟 HTTPS 请求。这样可隐藏流量特征，降低被封锁和 DPI 检测的可能性，保证节点长期可用。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>如何为 Trojan 配置 ALPN 与 SNI 提升伪装效果？</h5></div>
-    <div class="panel-body">
-        在服务器与客户端配置中设置合适的 SNI（伪装域名）并启用 ALPN（例如 http/1.1），确保 TLS 握手时使用常见的应用层协议标识，从而增加流量与普通 HTTPS 的相似度，降低被检测概率。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的 QUIC 传输模式有哪些优势？</h5></div>
-    <div class="panel-body">
-        QUIC 传输减少握手次数，支持多路复用和 UDP 基础，降低延迟并提高吞吐量。在不稳定或高丢包环境下，QUIC 可保证视频、游戏或即时通讯的稳定性和流畅体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>SSR 节点延迟高、丢包严重，常见排查步骤有哪些？</h5></div>
@@ -343,9 +313,39 @@ Clash的灵活性和协议支持是其最大优势之一。它不仅支持多种
         伪装域名必须真实可访问且证书有效，否则无法建立连接。正确配置可隐藏真实流量特征，降低被封锁和检测风险，提高节点安全性和长期可用性。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Shadowrocket 的节点测速结果如何应用？</h5></div>
+    <div class="panel-body">
+        节点测速结果可用于策略组选择和自动切换，程序会根据延迟和丢包率选择最优节点。这样访问海外网站或流媒体时，可以保持高速和稳定的网络体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Nekobox 是否可以与 Shadowsocks 客户端共存？</h5></div>
+    <div class="panel-body">
+        可以。Nekobox 配置独立，不影响其他客户端运行。用户可以同时使用 Shadowsocks、Clash 等客户端，通过策略组或分流规则选择合适节点，互不干扰。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 的 QUIC 传输模式有哪些优势？</h5></div>
+    <div class="panel-body">
+        QUIC 传输减少握手次数，支持多路复用和 UDP 基础，降低延迟并提高吞吐量。在不稳定或高丢包环境下，QUIC 可保证视频、游戏或即时通讯的稳定性和流畅体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Trojan TLS 伪装如何降低被封锁风险？</h5></div>
+    <div class="panel-body">
+        通过选择真实可访问的域名并安装有效证书，Trojan 流量可完全模拟 HTTPS 请求。这样可隐藏流量特征，降低被封锁和 DPI 检测的可能性，保证节点长期可用。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>如何为 Trojan 配置 ALPN 与 SNI 提升伪装效果？</h5></div>
+    <div class="panel-body">
+        在服务器与客户端配置中设置合适的 SNI（伪装域名）并启用 ALPN（例如 http/1.1），确保 TLS 握手时使用常见的应用层协议标识，从而增加流量与普通 HTTPS 的相似度，降低被检测概率。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 如何实现智能分流？</h5></div>
     <div class="panel-body">
-        Clash 通过结合规则文件和策略组，可以对不同网站或应用进行智能分流。例如将国内流量直连，海外流量通过代理节点，提高访问速度和稳定性，同时减少不必要的节点占用。    </div>
+        Clash 通过结合规则文件和策略组，可以对不同网站或应用进行智能分流。例如将国内流量直连，海外流量通过代理节点，提高访问速度和稳定性，同时减少不必要的节点占用。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mellow 的 TUN 模式能全局代理吗？</h5></div>
+    <div class="panel-body">
+        TUN 模式拦截系统 IP 层流量，可实现全局代理，无需手动设置浏览器或应用代理。适合需要全局科学上网或游戏加速的场景，保证所有流量均走代理节点。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -393,16 +393,16 @@ Clash的灵活性和协议支持是其最大优势之一。它不仅支持多种
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-9-10-vless-node-share.htm" title="香港Clash | 9月10日19.3M/S|免费Singbox节点/Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅机场">香港Clash | 9月10日19.3M/S|免费Singbox节点/Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-github-2026-9-25.htm" title="香港Clash | 9月25日18.9M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点订阅机场">香港Clash | 9月25日18.9M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-github-2026-9-15.htm" title="香港Clash | 9月15日21.1M/S|免费V2ray节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点订阅机场">香港Clash | 9月15日21.1M/S|免费V2ray节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-node-2026-9-29.htm" title="香港Clash | 9月29日22.8M/S|免费SSR节点/Shadowrocket节点/Trojan节点/Singbox节点/Clash节点/V2ray节点订阅机场">香港Clash | 9月29日22.8M/S|免费SSR节点/Shadowrocket节点/Trojan节点/Singbox节点/Clash节点/V2ray节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-9-27.htm" title="香港Clash | 9月27日20.2M/S|免费Shadowrocket节点/Trojan节点/V2ray节点/Singbox节点/SSR节点/Clash节点订阅机场">香港Clash | 9月27日20.2M/S|免费Shadowrocket节点/Trojan节点/V2ray节点/Singbox节点/SSR节点/Clash节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-vless-node-2026-9-19.htm" title="香港Clash | 9月19日19.3M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点订阅机场">香港Clash | 9月19日19.3M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-9-3.htm" title="香港Clash | 9月3日19.1M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/SSR节点订阅机场">香港Clash | 9月3日19.1M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/SSR节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-14-latest-vless-node.htm" title="香港Clash | 9月14日22.9M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Trojan节点/Shadowrocket节点订阅机场">香港Clash | 9月14日22.9M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Trojan节点/Shadowrocket节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-github-2026-10-3.htm" title="香港Clash | 10月3日20.6M/S|免费V2ray节点/SSR节点/Trojan节点/Clash节点/Shadowrocket节点/Singbox节点订阅机场">香港Clash | 10月3日20.6M/S|免费V2ray节点/SSR节点/Trojan节点/Clash节点/Shadowrocket节点/Singbox节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/vless-github-2026-9-11.htm" title="香港Clash | 9月11日19M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/SSR节点/V2ray节点订阅机场">香港Clash | 9月11日19M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/SSR节点/V2ray节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-8-free-subscribe-node.htm" title="香港Clash | 9月8日21M/S|免费Trojan节点/V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点订阅机场">香港Clash | 9月8日21M/S|免费Trojan节点/V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-10-9.htm" title="香港Clash | 10月9日22.3M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Clash节点/Trojan节点/V2ray节点订阅机场">香港Clash | 10月9日22.3M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Clash节点/Trojan节点/V2ray节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/vless-github-2026-9-21.htm" title="香港Clash | 9月21日20.3M/S|免费Trojan节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点订阅机场">香港Clash | 9月21日20.3M/S|免费Trojan节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点订阅机场</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/vless-github-2026-10-1.htm" title="香港Clash | 10月1日22.2M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点订阅机场">香港Clash | 10月1日22.2M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-10-7.htm" title="香港Clash | 10月7日20.9M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Trojan节点/Clash节点订阅机场">香港Clash | 10月7日20.9M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Trojan节点/Clash节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-22-vless-windows.htm" title="香港Clash | 9月22日18.3M/S|免费Singbox节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Trojan节点订阅机场">香港Clash | 9月22日18.3M/S|免费Singbox节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Trojan节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-14-latest-vless-node.htm" title="香港Clash | 9月14日22.9M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Trojan节点/Shadowrocket节点订阅机场">香港Clash | 9月14日22.9M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Trojan节点/Shadowrocket节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-2-free-subscribe-node.htm" title="香港Clash | 10月2日19.9M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/Trojan节点/V2ray节点订阅机场">香港Clash | 10月2日19.9M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/Trojan节点/V2ray节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-28-vless-node-share.htm" title="香港Clash | 9月28日21M/S|免费V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/Trojan节点/SSR节点订阅机场">香港Clash | 9月28日21M/S|免费V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/Trojan节点/SSR节点订阅机场</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -414,7 +414,7 @@ Clash的灵活性和协议支持是其最大优势之一。它不仅支持多种
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">4</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
+                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
