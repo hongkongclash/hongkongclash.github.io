@@ -256,29 +256,9 @@ clash女孩强调独立自主和真实表达，敢于挑战规范，而传统女
         Matsuri 会测速节点延迟，并结合策略组自动选择延迟低、稳定性高的节点处理视频流量。减少缓冲和卡顿，保证在线视频播放顺畅，提高整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 的 PAC 模式适合哪些使用场景？</h5></div>
-    <div class="panel-body">
-        PAC 模式可根据规则文件动态判断流量是否走代理。适合访问国内外混合网站环境，无需手动切换节点，程序自动分流，提高网络访问效率和稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Trojan 如何实现伪装？</h5></div>
-    <div class="panel-body">
-        Trojan 使用 TLS 协议模拟正常的 HTTPS 流量，防火墙难以区分其与普通网站访问的区别。通过伪装域名、SNI 和证书匹配机制，它能在保障安全的同时隐藏真实代理流量。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>QuantumultX 的分流规则支持哪些条件？</h5></div>
     <div class="panel-body">
         支持按域名、IP 地址、端口、请求路径、协议类型或关键词进行分流。结合策略组，可实现广告屏蔽、视频加速、游戏优化等多种自定义网络策略。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 如何选择合适混淆提高稳定性？</h5></div>
-    <div class="panel-body">
-        选择混淆方式时应根据网络环境和封锁程度，例如 tls1.2_ticket_auth 可模拟 HTTPS 流量。合理组合协议和混淆可提升节点稳定性和抗封锁能力，确保长期科学上网体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>QuantumultX 分流规则如何优化游戏体验？</h5></div>
-    <div class="panel-body">
-        QuantumultX 可按端口、协议或应用设置分流规则，将游戏流量走低延迟节点。结合策略组自动切换，可保证游戏连接稳定，减少掉线和延迟，提高流畅度。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Matsuri 如何结合 Xray 内核实现多协议支持？</h5></div>
@@ -291,14 +271,34 @@ clash女孩强调独立自主和真实表达，敢于挑战规范，而传统女
         Sing-box 支持从 Clash 配置文件中导入节点。用户只需将 YAML 文件放入配置目录或通过命令导入即可。系统会自动解析规则组和节点信息，简化迁移过程。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Trojan 如何实现伪装？</h5></div>
+    <div class="panel-body">
+        Trojan 使用 TLS 协议模拟正常的 HTTPS 流量，防火墙难以区分其与普通网站访问的区别。通过伪装域名、SNI 和证书匹配机制，它能在保障安全的同时隐藏真实代理流量。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mellow TUN 模式适合哪些应用？</h5></div>
+    <div class="panel-body">
+        TUN 模式拦截系统 IP 层流量，实现全局代理。适合游戏、视频、浏览器等全局应用，保证所有流量走节点，提高网络稳定性和速度，比普通 SOCKS5 代理覆盖范围更广。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>QuantumultX 分流规则如何优化游戏体验？</h5></div>
+    <div class="panel-body">
+        QuantumultX 可按端口、协议或应用设置分流规则，将游戏流量走低延迟节点。结合策略组自动切换，可保证游戏连接稳定，减少掉线和延迟，提高流畅度。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 如何管理不同用户的带宽？</h5></div>
     <div class="panel-body">
         管理员可以为每个用户设置独立带宽限制和流量配额。超出配额时可自动阻断或降速，确保服务器资源合理分配，避免单用户占用过多带宽，保障整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mellow TUN 模式适合哪些应用？</h5></div>
+    <div class="panel-heading"><h5>WinXray 的 PAC 模式适合哪些使用场景？</h5></div>
     <div class="panel-body">
-        TUN 模式拦截系统 IP 层流量，实现全局代理。适合游戏、视频、浏览器等全局应用，保证所有流量走节点，提高网络稳定性和速度，比普通 SOCKS5 代理覆盖范围更广。    </div>
+        PAC 模式可根据规则文件动态判断流量是否走代理。适合访问国内外混合网站环境，无需手动切换节点，程序自动分流，提高网络访问效率和稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 如何选择合适混淆提高稳定性？</h5></div>
+    <div class="panel-body">
+        选择混淆方式时应根据网络环境和封锁程度，例如 tls1.2_ticket_auth 可模拟 HTTPS 流量。合理组合协议和混淆可提升节点稳定性和抗封锁能力，确保长期科学上网体验。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -346,16 +346,16 @@ clash女孩强调独立自主和真实表达，敢于挑战规范，而传统女
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-9-3.htm" title="香港Clash | 9月3日19.1M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/SSR节点订阅机场">香港Clash | 9月3日19.1M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/SSR节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-24-vless-node-github.htm" title="香港Clash | 9月24日20.3M/S|免费Trojan节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点订阅机场">香港Clash | 9月24日20.3M/S|免费Trojan节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-github-2026-10-1.htm" title="香港Clash | 10月1日22.2M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点订阅机场">香港Clash | 10月1日22.2M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-github-2026-10-29.htm" title="香港Clash | 10月29日19.8M/S|免费Trojan节点/Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅机场">香港Clash | 10月29日19.8M/S|免费Trojan节点/Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-node-2026-10-17.htm" title="香港Clash | 10月17日21.7M/S|免费Trojan节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点订阅机场">香港Clash | 10月17日21.7M/S|免费Trojan节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-10-13.htm" title="香港Clash | 10月13日18.8M/S|免费V2ray节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点订阅机场">香港Clash | 10月13日18.8M/S|免费V2ray节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-30-free-node-subscribe.htm" title="香港Clash | 9月30日18.2M/S|免费Trojan节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点订阅机场">香港Clash | 9月30日18.2M/S|免费Trojan节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/vless-github-2026-10-25.htm" title="香港Clash | 10月25日18.4M/S|免费SSR节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点订阅机场">香港Clash | 10月25日18.4M/S|免费SSR节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-28-node-share.htm" title="香港Clash | 10月28日18.6M/S|免费Singbox节点/Clash节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点订阅机场">香港Clash | 10月28日18.6M/S|免费Singbox节点/Clash节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-10-19.htm" title="香港Clash | 10月19日18.3M/S|免费SSR节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点订阅机场">香港Clash | 10月19日18.3M/S|免费SSR节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点订阅机场</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-10-16-free-subscribe-node.htm" title="香港Clash | 10月16日21.5M/S|免费V2ray节点/Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点订阅机场">香港Clash | 10月16日21.5M/S|免费V2ray节点/Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-26-latest-vless-node.htm" title="香港Clash | 10月26日21.3M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点订阅机场">香港Clash | 10月26日21.3M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点订阅机场</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-16-free-node-subscribe.htm" title="香港Clash | 9月16日21.7M/S|免费Trojan节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点订阅机场">香港Clash | 9月16日21.7M/S|免费Trojan节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-24-node-share.htm" title="香港Clash | 10月24日19.4M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Trojan节点/SSR节点/Singbox节点订阅机场">香港Clash | 10月24日19.4M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Trojan节点/SSR节点/Singbox节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-11-3.htm" title="香港Clash | 11月3日22.4M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Trojan节点/Clash节点/V2ray节点订阅机场">香港Clash | 11月3日22.4M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Trojan节点/Clash节点/V2ray节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-14-vless-node-github.htm" title="香港Clash | 10月14日20.8M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/Trojan节点/SSR节点订阅机场">香港Clash | 10月14日20.8M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/Trojan节点/SSR节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/vless-github-2026-10-29.htm" title="香港Clash | 10月29日19.8M/S|免费Trojan节点/Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅机场">香港Clash | 10月29日19.8M/S|免费Trojan节点/Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-30-vless-node-share.htm" title="香港Clash | 10月30日18.2M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/Clash节点/SSR节点订阅机场">香港Clash | 10月30日18.2M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/Trojan节点/Clash节点/SSR节点订阅机场</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-18-vless-windows.htm" title="香港Clash | 10月18日19.7M/S|免费Shadowrocket节点/SSR节点/Trojan节点/Singbox节点/Clash节点/V2ray节点订阅机场">香港Clash | 10月18日19.7M/S|免费Shadowrocket节点/SSR节点/Trojan节点/Singbox节点/Clash节点/V2ray节点订阅机场</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -367,13 +367,10 @@ clash女孩强调独立自主和真实表达，敢于挑战规范，而传统女
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">2</span> <a href="/date/2026-11/" title="2026-11 归档">2026-11</a></h4>
+                <h4><span class="badge" style="float: right;">9</span> <a href="/date/2026-11/" title="2026-11 归档">2026-11</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">30</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
-            </li>
-                        <li class="py-2">
-                <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
+                <h4><span class="badge" style="float: right;">21</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
             </li>
                     </ul>
     </div>
